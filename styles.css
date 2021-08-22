@@ -1,0 +1,59 @@
+.menu {
+  /* add correct code to place the menu correctly.*/
+  display: flex;
+  justify-content: space-evenly;
+  letter-spacing: 0.5px;
+  background-color: black;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: white;
+}
+body {
+  
+  background-color: rgb(188, 189, 255);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+h1{
+  color: aqua;
+}
+*{
+  font-family:Comic Sans MS
+}
+.grid {
+  
+  display: flex;
+  flex-wrap: wrap;
+  align-self: auto;
+  font-family: sans-serif;
+  flex-basis: 40px;
+ justify-content: space-evenly;
+ 
+  order:5
+
+  
+  
+}
+
+.languages{
+  border-style: hidden;
+  border-spacing: 30px;
+  background-color: #fafad2;
+  border-radius: 50px;
+  margin-bottom: 30px;
+  width:310px
+  
+ 
+ 
+}
+
+.grid img {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(255, 255, 255);
+  
+  border: 2px solid black;
+  border-radius: 50px;
+}
+
+
